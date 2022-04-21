@@ -11,7 +11,8 @@ spec:
     metadata:
       labels:
         app: web
-    containers:
-      - name: htech7x
-        image: nginx
+    spec:
+      containers:
+        - name: htech7x
+          image: nginx
 
