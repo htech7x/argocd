@@ -4,4 +4,12 @@ metadata:
   name: web
 spec:
   replicas: 4
+  selector:
+    matchLabels:
+      app: run
+  template:
+    metadata:
+      labels:
+        app: run
+  
 
