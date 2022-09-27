@@ -2,3 +2,5 @@ apiVersion: apps/v1
 kind: Deployment
 spec:
   replicas: 4
+  selector:
+    app: run
